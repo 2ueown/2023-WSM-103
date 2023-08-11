@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: rgb(75, 228, 61);
+    height: 100vh;
+
+    /* 가로 세로 중앙정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: greenyellow;
+    /* 배경색은 padding에 공간에도 영향을 준다  (margin은 X) */
+    padding: 30px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 0 10px rgb(181, 226, 203);
+}
+
+h1 {
+    /* 박스 안에 있는 글자를 가운데로 */
+    text-align: center;
+    color: rgb(83, 194, 83);
+}
+
+input {
+
+    box-sizing: border-box;
+    /* content의 너비의 부모의 너비의 100% */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(102, 189, 145);
+}
+
+#i_submit {
+    background-color: hsl(138, 80%, 42%);
+}
+
+#i_submit:hover{
+    background-color: rgb(110, 253, 118);
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: seagreen;
+    /* 밑줄제거 */
+    text-decoration: none;
+}
+
+.forgot-password a {
+    text-decoration: underline;
+}
