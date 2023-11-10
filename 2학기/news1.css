@@ -1,0 +1,23 @@
+h1{
+    background-color: rgb(78, 74, 57);
+    background-size: 159px;
+    color: rgb(91, 204, 119);
+    text-align: center;
+    line-height: 60%;
+    font-size: 149px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: rgb(26, 132, 26);
+    /* 줄간격 */
+    line-height: 9;
+    /* 가운데 정렬 */
+    text-align: center;
+    /* 폰트 사이즈 */
+    font-size: large;
+}
+h3{
+    text-align: center;
+    font-size: 14px;
+    line-height: 2;
+}
